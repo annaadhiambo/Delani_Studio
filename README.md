@@ -25,3 +25,5 @@ $ code .
 * Bootstrap
 * JavaScript
 * JQuery
+## How to contribute
+You can fork the project from the git hub and clone it by following the above instruction
