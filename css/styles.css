@@ -41,3 +41,13 @@
 .product-text{
     display: none;
 }
+.social{
+    background-image:  url(../assets/backgrounds/c_image.jpg);
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    text-align: center;
+    
+
+}
