@@ -8,4 +8,24 @@ $(document).ready(function(){
         $('.design-text').toggle(1000);
     });
 });
+$(document).ready(function(){
+    $('#development').click(function(){
+        $('#development').toggle(1000);
+        $('.development-text').toggle(1000);
+    });
+    $('.development-text').click(function(){
+        $('#development').toggle(1000);
+        $('.development-text').toggle(1000);
+    });
+});
+$(document).ready(function(){
+    $('#product').click(function(){
+        $('#product').toggle(1000);
+        $('.product-text').toggle(1000);
+    });
+    $('.product-text').click(function(){
+        $('#product').toggle(1000);
+        $('.product-text').toggle(1000);
+    });
+});
 
