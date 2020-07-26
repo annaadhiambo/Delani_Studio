@@ -1,31 +1,31 @@
 $(document).ready(function(){
     $('#design').click(function(){
-        $('#design').toggle(1000);
-        $('.design-text').toggle(1000);
+        $('#design').toggle(2000);
+        $('.design-text').toggle(2000);
     });
     $('.design-text').click(function(){
-        $('#design').toggle(1000);
-        $('.design-text').toggle(1000);
+        $('#design').toggle(2000);
+        $('.design-text').toggle(2000);
     });
 });
 $(document).ready(function(){
     $('#development').click(function(){
-        $('#development').toggle(1000);
-        $('.development-text').toggle(1000);
+        $('#development').toggle(2000);
+        $('.development-text').toggle(2000);
     });
     $('.development-text').click(function(){
-        $('#development').toggle(1000);
-        $('.development-text').toggle(1000);
+        $('#development').toggle(2000);
+        $('.development-text').toggle(2000);
     });
 });
 $(document).ready(function(){
     $('#product').click(function(){
-        $('#product').toggle(1000);
-        $('.product-text').toggle(1000);
+        $('#product').toggle(2000);
+        $('.product-text').toggle(2000);
     });
     $('.product-text').click(function(){
-        $('#product').toggle(1000);
-        $('.product-text').toggle(1000);
+        $('#product').toggle(2000);
+        $('.product-text').toggle(2000);
     });
 });
 
