@@ -37,6 +37,62 @@ $(document).ready(function(){
 
 });
 $(document).ready(function(){
+    $('#work2').mouseover(function(){
+        $('#top2').show();
+    }).mouseout(function(){
+        $('#top2').hide();
+    })
+
+});
+$(document).ready(function(){
+    $('#work3').mouseover(function(){
+        $('#top3').show();
+    }).mouseout(function(){
+        $('#top3').hide();
+    })
+
+});
+$(document).ready(function(){
+    $('#work4').mouseover(function(){
+        $('#top4').show();
+    }).mouseout(function(){
+        $('#top4').hide();
+    })
+
+});
+$(document).ready(function(){
+    $('#work5').mouseover(function(){
+        $('#top5').show();
+    }).mouseout(function(){
+        $('#top5').hide();
+    })
+
+});
+$(document).ready(function(){
+    $('#work6').mouseover(function(){
+        $('#top6').show();
+    }).mouseout(function(){
+        $('#top6').hide();
+    })
+
+});
+$(document).ready(function(){
+    $('#work7').mouseover(function(){
+        $('#top7').show();
+    }).mouseout(function(){
+        $('#top7').hide();
+    })
+
+});
+$(document).ready(function(){
+    $('#work8').mouseover(function(){
+        $('#top8').show();
+    }).mouseout(function(){
+        $('#top8').hide();
+    })
+
+});
+$(document).ready(function(){
     $('form#validity').submit(function(){
         var name = $('input#smile1').val();
         var email = $('input#smile2').val();
