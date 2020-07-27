@@ -44,9 +44,49 @@
 }
 .social{
     background-image:  url(../assets/backgrounds/c_image.jpg);
-    background-position: relative;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
     text-align: center;
+    color: #fff;
+}
+#top1,#top2,#top3,#top4,#top5,#top6,#top7,#top8{
+    display: none;
+    position: absolute;
+    background-color: rgb(190, 189, 189,0.1);
+    width: 75%;
+    height: 75%;
+    top: 30px;
+    left: 33px;
+    padding-bottom: 40%;
+    font-size: 24px;
+    border: 3px solid wheat;
+    color: #fff;
+    padding-top: 5px;
+    font-weight: bold;
+}
+#smile1{
+    width: 25%;
+    margin-left: 22%;
+    margin-right: 30px;
+}
+#smile2{
+    width: 25%;
+}
+input[type=text],#textarea,input[type=email]{
+    background-color: transparent;
+    color: #fff;
+
+}
+#textarea{
+    width: 60%;
+    margin-left: 18%;
+}
+.container{
+    padding-bottom: 10px;
+}
+.icon{
+    text-align: center;
+    padding-top: 30px;
 }

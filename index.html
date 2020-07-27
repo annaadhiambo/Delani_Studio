@@ -6,6 +6,7 @@
     <title>Delani Studio</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <!-- Showcase Area -->
@@ -98,56 +99,61 @@
       </div>
     </div>
     <!-- Section: Portfolio-->
-    <div class="container text-center">
+    <div class="container text-center" style ="margin-bottom: 20px;">
       <h2>PORTFOLIO</h2>
       <div class="row">
-        <div class="col-md-3">
-          <img src="./assets/portfolio/work1.jpg" width="250" />
+        <div class="col-md-3" id="work1">
+          <img src="./assets/portfolio/work4.jpg" width="250" alt="work1" />
+          <p class="name" id="top1">Black Studio</p>
         </div>
-        <div class="col-md-3">
-          <img src="./assets/portfolio/work2.jpg" width="250" />
+        <div class="col-md-3" id="work2">
+          <img src="./assets/portfolio/work3.jpg" width="250"  alt="work2"/>
+          <p class="name" id="top2">Ontario Security</p>
         </div>
-        <div class="col-md-3">
-          <img src="./assets/portfolio/work3.jpg" width="250" />
+        <div class="col-md-3" id="work3">
+          <img src="./assets/portfolio/work2.jpg" width="250" alt="work3" />
+          <p class="name" id="top3">pyramids</p>
         </div>
-        <div class="col-md-3">
-          <img src="./assets/portfolio/work4.jpg" width="250" />
+        <div class="col-md-3" id="work4">
+          <img src="./assets/portfolio/work1.jpg" width="250" alt="work4" />
+          <p class="name" id="top4">Jim Carrey</p>
         </div>
       </div>
       <div class="row pt-3">
-        <div class="col-md-3">
-          <img src="./assets/portfolio/work5.jpg" width="250" />
+        <div class="col-md-3" id="work5">
+          <img src="./assets/portfolio/work5.jpg" width="250" alt="work5" />
+          <p class="name" id="top5">Have a good day</p>
         </div>
-        <div class="col-md-3">
-          <img src="./assets/portfolio/work6.jpg" width="250" />
+        <div class="col-md-3" id="work6">
+          <img src="./assets/portfolio/work6.jpg" width="250"  alt="work6"/>
+          <p class="name" id="top6">Calculator</p>
         </div>
-        <div class="col-md-3">
-          <img src="./assets/portfolio/work7.jpg" width="250" />
+        <div class="col-md-3" id="work7">
+          <img src="./assets/portfolio/work7.jpg" width="250" alt="work7"/>
+          <p class="name" id="top7">Burned</p>
         </div>
-        <div class="col-md-3">
-          <img src="./assets/portfolio/work8.jpg" width="250" />
+        <div class="col-md-3" id="work8">
+          <img src="./assets/portfolio/work8.jpg" width="250" alt="work8"/>
+          <p class="name" id="top8">Giraffe Restorant</p>
         </div>
       </div>
     </div>
     <!--Section Contact Us-->
-    <div class="container-fluid text-center text-light social pt-3">
-      <div class="container">
-        <h1>Contact Us</h1>
-        <form class="row">
-          <div class="col-md-6">
-              <input type="text" placeholder="Name...">
-          </div>
-          <div class="col-md-6">
-              <input type="text" placeholder="Email...">
-          </div>
-          <div class="col-md-12 pt-3">
-              <textarea rows="7" placeholder="Your Message here..."></textarea>
-          </div>
-      </form>
+    <div class="container-fluid social" style="padding-bottom: 10px;">
+      <h2>CONTACT US</h2>
+      <form id="validity" action="https://gmail.us17.list-manage.com/subscribe/post?u=9939474ec54362ec182a2bdd2&amp;id=107c86eb3b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div class="form-group form-inline">
+      <input type="text" class="form-control" placeholder = "Name...." name="smile1" id="smile1" size="25" value="">
+      <input type="email" class="form-control" placeholder = "Email...." email="simle2" id="smile2" size="25" value="">
       </div>
-    </div>
+      <div class="form-group">
+      <textarea class="form-control" rows="8" id="textarea" placeholder = "Your message here...."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary col-md-1" style="padding: 5px;">Submit</button>
+      </form>
+    </div> 
     <!--Section: Social-->
-    <div class="icon text-center pt-5">
+    <div class="icon">
       <img src="./assets/social_icons/twitter.png" alt="">
       <img src="./assets/social_icons/dribble.png" alt="">
       <img src="./assets/social_icons/facebook.png" alt="">
