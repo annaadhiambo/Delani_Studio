@@ -54,7 +54,7 @@
 #top1,#top2,#top3,#top4,#top5,#top6,#top7,#top8{
     display: none;
     position: absolute;
-    background-color: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .8));
+    background-color: rgba(0, 0, 0, .6);
     width: 75%;
     height: 75%;
     top: 30px;
