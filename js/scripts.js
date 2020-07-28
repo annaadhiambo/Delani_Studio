@@ -94,8 +94,8 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
     $('form#validity').submit(function(){
-        var name = $('input#smile1').val();
-        var email = $('input#smile2').val();
+        var name = $('input#mce-NAME').val();
+        var email = $('input#mce-EMAIL').val();
         var message = $('input#textarea').val();
         if (name && email){
             alert (name + ', we have recived your message. Thank you for contacting us ');
